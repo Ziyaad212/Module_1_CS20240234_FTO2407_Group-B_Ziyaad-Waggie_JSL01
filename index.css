@@ -31,6 +31,12 @@ button:hover {
     background-color: #228b22;
 }
 
+#result-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #result {
     font-size: 2em;
     margin-top: 20px;
@@ -46,4 +52,24 @@ button:hover {
 
 .emoji {
     font-size: 1.5em;
+}
+
+#status-dot {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top:  0px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.valid-dot {
+    background-color: #008000;
+}
+
+.invalid-dot {
+    background-color: #ff0000;
 }
